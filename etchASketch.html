@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header id="separator">
+        <p id="title">Etch-a-Sketch</p>
+    </header>
+
+    <main>
+        <div id="buttonContainer">
+            <label for="colorModeButton">Pick a color!</label>
+            <div class="colorPicker">
+                <input type="color" id="colorModeBtn">
+            </div>
+            <button id="rainbowModeBtn">Rainbow mode</button>
+            <button id="eraser">Eraser</button>
+            <button id="clear">Clear board</button>
+            <button id="changeBoardSize">Change board size</button>
+            <p id="boardSizeCounter"></p>
+        </div>
+    
+        <div id="displayContainer">
+            <div class="display">
+                <div id="main-container"></div>
+            </div>
+        </div>
+    </main>  
+
+</body>
+</html>

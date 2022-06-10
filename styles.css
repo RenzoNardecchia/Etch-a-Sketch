@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #222231;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#separator{
+    width: 100%;
+    height: 100px;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 90px;
+}
+
+#buttonContainer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;;
+}
+label{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.colorPicker{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+#colorModeBtn{
+    -webkit-appearance: none;
+    width: 230px;
+    height: 90px;
+    outline: none;
+    padding: 0px;
+    border: 0px;
+    border-radius: 100%;
+}
+#clear, #eraser, #rainbowModeBtn, #changeBoardSize{
+    background-color: #17171f;
+    width: 230px;
+    height: 60px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#clear:hover, #eraser:hover, #rainbowModeBtn:hover, #changeBoardSize:hover{
+    background-color: #1b1b24;
+}
+
+#clear:active, #eraser:active, #rainbowModeBtn:active, #changeBoardSize:active{
+    background-color: #21212c;
+}
+
+label{
+    color: #ffffff;
+}
+
+#boardSizeCounter{
+    color: #ffffff;
+    font-size: 20px;    
+}
+
+#displayContainer{
+    width: 50%;
+}
+
+#boardSize{
+    background-color: #17171f;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.display{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    background-color: #17171f;
+    border-radius: 10px;
+}
+#main-container{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.square{
+    height: auto;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+}
